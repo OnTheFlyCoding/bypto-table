@@ -1,6 +1,6 @@
 import { ChangeEventHandler } from "react"
 //Types
-type InputProps = {
+export type InputProps = {
     value: string;
     //onChange expects an event and the event target is HTML
     onChange: ChangeEventHandler<HTMLInputElement>;
@@ -14,10 +14,11 @@ export default function Input(props:InputProps){
     return (
         <input 
         //default class css but is adaptable to take more in the future
-        className={"border border-teal-400 bg-gray-900 p-2" + props.className}
+        className={"border border-teal-400 bg-gray-900 p-2 " + props.className}
         type="text" 
         value={props.value} 
         onChange={props.onChange}/>
+        
     
     );
 }
