@@ -16,7 +16,7 @@ function App() {
         <ResultRow/>
         <ResultRow/>
         <ResultRow/>
-        <ResultRow loading={true}/>
+        <ResultRow loading={false}/>
       </div>
     </main>  
   )

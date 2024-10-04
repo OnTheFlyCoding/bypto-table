@@ -6,7 +6,7 @@ type ResultRowProps = {
 export default function ResultRow({loading}:ResultRowProps){
     return (
         // Container:
-        <div className="relative border min-h-6 border-teal-400 
+        <div className="overflow-hidden relative border min-h-6 border-teal-400 
                         rounded-lg bg-gradient-to-l
                         from-purple-500/10 to-sky-400/30 
                         my-2">
@@ -25,7 +25,7 @@ export default function ResultRow({loading}:ResultRowProps){
             {loading && (
                 <div className="inset-0 absolute 
                     rounded-md bg-gradient-to-r from-transparent
-                    via-cyan-400/50 to-transparent
+                    via-cyan-500/20 to-transparent
                     skeleton-animation"/>
             )}
             

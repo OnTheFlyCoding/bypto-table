@@ -8,3 +8,15 @@ body{
     background-image: radial-gradient( at 50% 50%, #226 20%, rgb(9, 5, 26) 60%);
     height: 100vh;
 }
+ @keyframes from-left-to-right{
+    0%{
+        translate: -100%;
+    }
+    100%{
+        translate: 100%;
+    }
+ }
+
+ .skeleton-animation{
+    animation: from-left-to-right 2s infinite;
+ }
