@@ -1,7 +1,8 @@
 import Input, { InputProps } from "./input";
 export default function AmountInput(props:InputProps){
     return (
-        <div className="flex items-center border border-teal-400 bg-gray-900 rounded-md">
+        <div className="flex items-center border border-teal-400 
+                        bg-gray-900 rounded-md">
         <Input 
         className="text-right text-lime-400 border-0 bg-transparent text-2xl"
         placeholder = 'Enter amount'
